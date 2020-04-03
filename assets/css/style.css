@@ -510,6 +510,9 @@ h3 {
 .mb3 {
   margin-bottom: 3rem;
 }
+.ml-8 {
+  margin-left: 8rem;
+}
 .h5 {
   height: 350px;
 }
