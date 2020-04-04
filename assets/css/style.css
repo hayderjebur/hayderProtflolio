@@ -163,6 +163,7 @@ h6 {
   position: relative;
   white-space: nowrap;
   float: left;
+  text-transform: lowercase;
 }
 
 .nav-menu a {
@@ -174,7 +175,7 @@ h6 {
   font-size: 13px;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
+  text-transform: initial;
   font-family: "Poppins", sans-serif;
 }
 
@@ -534,6 +535,7 @@ h3 span {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .section-title p {
@@ -1089,7 +1091,7 @@ h3 span {
   background: #fff;
 }
 
-.contact .info i {
+/* .contact .info i {
   font-size: 20px;
   color: #8fc04e;
   float: left;
@@ -1097,6 +1099,19 @@ h3 span {
   height: 44px;
   background: #f3f8ec;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+} */
+i {
+  font-size: 30px;
+  color: #8fc04e;
+  /* float: left; */
+  width: 60px;
+  height: 44px;
+  /* background: #f3f8ec; */
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   border-radius: 50px;
