@@ -164,6 +164,7 @@ h6 {
   white-space: nowrap;
   float: left;
   text-transform: lowercase;
+  /* margin: 0 1rem; */
 }
 
 .nav-menu a {
@@ -172,7 +173,7 @@ h6 {
   color: #fff;
   padding: 14px 0 12px 25px;
   transition: 0.3s;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   text-transform: initial;
@@ -397,7 +398,7 @@ h6 {
 
 #hero .hero-container {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   top: 0;
   left: 0;
   right: 0;
@@ -687,6 +688,9 @@ h3 span {
 
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 0.9;
+}
+.portfolio .portfolio-item .portfolio-info i {
+  color: white;
 }
 
 /*--------------------------------------------------------------
